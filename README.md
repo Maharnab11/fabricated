@@ -1,2 +1,2 @@
-# frabricated
+# fabricated
 a virtue of attempt
