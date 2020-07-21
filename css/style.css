@@ -1563,7 +1563,7 @@ input[type="text"] {
  }
  @media only screen and (min-width: 1024px) {
    .masonry {
-     columns: 3;
+     columns: 4;
    }
  }
  .masonry-item, .masonry-content {
