@@ -16,7 +16,7 @@ body {
   font-size: 16px;
   line-height: 1.7;
   color: #4d4d4d;
-  background: #292b2e;
+  background-image: url("../images/texture.jpg");
 }
 
 #page {
@@ -208,7 +208,7 @@ h1, h2, h3, h4, h5, h6, figure {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
-  border-radius: 50%;
+  border-radius: 60%;
 }
 .actual-thumb {
   background-size: cover !important;
@@ -1552,7 +1552,7 @@ input[type="text"] {
 .masonry {
   display: grid;
   grid-template-columns: repeat(1, minmax(100px,1fr));
-  grid-gap: 10px;
+  grid-gap: 20px;
   grid-auto-rows: 0;
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px) {
@@ -1618,4 +1618,8 @@ input[type="text"] {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+#Logo {
+  height: 50px;
+  
 }
